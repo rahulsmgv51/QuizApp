@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textLoginSubHeader"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="knowledge brings happiness \n and prosperity to the nation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textLoginHeader"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UP SI"
+        android:textSize="30sp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textLoginSubHeader"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:layout_width="407dp"
+        android:layout_height="166dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_undraw_goals_re_lu76"
+        app:layout_constraintBottom_toTopOf="@+id/textLoginHeader"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="0dp"
+        android:background="@drawable/rounded_corners"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Let's Start"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/textLoginSubHeader"
+        app:layout_constraintStart_toStartOf="@+id/textLoginSubHeader"
+        app:layout_constraintTop_toBottomOf="@+id/textLoginSubHeader" />
+
+    <Button
+        android:id="@+id/buttonFevorite"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Favorite"
+        android:textSize="20sp"
+        android:background="@drawable/rounded_corners"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonStart"
+        app:layout_constraintStart_toStartOf="@+id/buttonStart"
+        app:layout_constraintTop_toBottomOf="@+id/buttonStart"
+
+        />
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/ic_wave__1_"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

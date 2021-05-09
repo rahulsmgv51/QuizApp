@@ -1,0 +1,29 @@
+{
+  "Categories" : {
+    "category1" : {
+      "name" : "GeneralHindi",
+      "sets" : 1,
+      "url" : "https://firebasestorage.googleapis.com/v0/b/quiz-4e708.appspot.com/o/categories%2FGH.png?alt=media&token=09e293e9-cef8-460f-a957-95ec4627e488"
+    },
+    "category2" : {
+      "name" : "सामान्य हिन्दी",
+      "sets" : 11,
+      "url" : "https://firebasestorage.googleapis.com/v0/b/quiz-4e708.appspot.com/o/categories%2FGK.png?alt=media&token=396d1a1b-acfe-49c1-9b33-dcd1a817be2b"
+    }
+  },
+  "SETS" : {
+    "GeneralHindi" : {
+      "questions" : {
+        "qwerty" : {
+          "correctANS" : "NewDelhi",
+          "optA" : "Lucknow",
+          "optB" : "NewDelhi",
+          "optC" : "Mumbai",
+          "optD" : "Kolkatta",
+          "question" : "What is the Capital of Inadia?",
+          "setNo" : 1
+        }
+      }
+    }
+  }
+}
